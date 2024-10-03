@@ -142,7 +142,7 @@ body {
     color: var(--tab-button-active-color);
 }
 
-.tab-controls button + button {
+.tab-controls button+button {
     border-left: 1px solid var(--tab-button-border);
 }
 
@@ -182,7 +182,8 @@ body {
 
 .tab-header {
     position: sticky;
-    top: 2px; /* FIXME: Remove this when https://github.com/LadybirdBrowser/ladybird/issues/1245 is resolved. */
+    top: 2px;
+    /* FIXME: Remove this when https://github.com/LadybirdBrowser/ladybird/issues/1245 is resolved. */
     left: 0;
     right: 0;
     background-color: var(--tab-controls);
@@ -191,7 +192,7 @@ body {
     padding: 0.5em;
 }
 
-details > :not(:first-child) {
+details> :not(:first-child) {
     display: list-item;
     list-style: none inside;
     margin-left: 1em;
@@ -364,4 +365,13 @@ details > :not(:first-child) {
     font-family: var(--code-font-family);
     white-space: pre;
     padding: 0.5em;
+}
+
+.inspectElement {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('resource://icons/16x16/inspectElementButton.png');
+    border: none;
+    cursor: pointer;
 }

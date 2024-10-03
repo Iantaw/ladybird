@@ -96,7 +96,10 @@ inspector.exportInspector = () => {
     inspector.exportInspectorHTML(html);
 };
 
-inspector.reset = () => {
+inspector.inspectElement = () => {
+    console.log("Test");
+}
+
     let domTree = document.getElementById("dom-tree");
     domTree.innerHTML = "";
 
