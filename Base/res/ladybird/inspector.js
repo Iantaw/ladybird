@@ -100,6 +100,7 @@ inspector.inspectElement = () => {
     console.log("Test");
 }
 
+inspector.reset = () => {
     let domTree = document.getElementById("dom-tree");
     domTree.innerHTML = "";
 
