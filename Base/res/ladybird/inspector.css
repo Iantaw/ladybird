@@ -374,4 +374,7 @@ details> :not(:first-child) {
     background-image: url('resource://icons/16x16/inspectElementButton.png');
     border: none;
     cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--tab-controls);
 }
