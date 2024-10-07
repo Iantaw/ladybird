@@ -371,7 +371,7 @@ details> :not(:first-child) {
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-image: url('resource://icons/16x16/inspectElementButton.png');
+    background-image: url('resource://icons/16x16/inspect-element-button.png');
     border: none;
     cursor: pointer;
     background-position: center;
