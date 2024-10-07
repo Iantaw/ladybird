@@ -20,7 +20,7 @@ set(16x16_ICONS
     find.png
     go-forward.png
     history.png
-    inspectElementButton.png
+    inspect-element-button.png
     layers.png
     layout.png
     network.png
